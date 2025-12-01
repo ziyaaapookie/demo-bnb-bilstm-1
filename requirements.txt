@@ -1,9 +1,18 @@
-streamlit
-yfinance
-pandas
+# Base dependencies
+protobuf==3.20.*  # Letakkan yang strict version di atas
 numpy
-tensorflow
+pandas
+yfinance
 scikit-learn
 matplotlib
-protobuf==3.20.*
+
+# Deep learning
+tensorflow
 keras
+
+# Streamlit dan dependencies-nya
+streamlit
+markdown-it-py>=4.0.0
+mdurl>=0.1.2
+pygments>=2.19.2
+rich>=14.2.0
